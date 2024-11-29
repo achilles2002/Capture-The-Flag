@@ -1,8 +1,8 @@
-Challange : 
+**Challange** 
       Pedro was disappointed because he didn't speak Python well enough to capture some of the flags on CTFLearn. His plan for revenge was to create one in his native language (Java). The flag is a String of 6 alphanumeric characters. Capture it. https://mega.nz/#!SHp1xCAL!I9-Zy4kwu_JY019MiYZ6CzGey8sJ6UvqE-ML2idmkrs
 
 
-How To Solve :
+**How To Solve** :
 To solve this challenge, we need to find a 6-character alphanumeric string (`flag`) that satisfies the conditions in the `isFlag` method. Here’s how to approach it:
 
 ---
