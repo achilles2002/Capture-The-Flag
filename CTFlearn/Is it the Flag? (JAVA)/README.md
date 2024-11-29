@@ -1,8 +1,10 @@
 **Challange** 
+
       Pedro was disappointed because he didn't speak Python well enough to capture some of the flags on CTFLearn. His plan for revenge was to create one in his native language (Java). The flag is a String of 6 alphanumeric characters. Capture it. https://mega.nz/#!SHp1xCAL!I9-Zy4kwu_JY019MiYZ6CzGey8sJ6UvqE-ML2idmkrs
 
 
-**How To Solve** :
+**How To Solve**
+
 To solve this challenge, we need to find a 6-character alphanumeric string (`flag`) that satisfies the conditions in the `isFlag` method. Here’s how to approach it:
 
 ---
@@ -75,33 +77,3 @@ public class FindTheFlag {
    - If a matching string is found, the program prints it as the flag and exits.
 
 ---
-
-### **How to Run**
-
-1. **Compile the Code:**
-   Use the `javac` command to compile the file:
-   ```bash
-   javac FindTheFlag.java
-   ```
-
-2. **Run the Program:**
-   Use the `java` command to execute the compiled program:
-   ```bash
-   java FindTheFlag
-   ```
-
-3. **Wait for Output:**
-   - The program will test all combinations until it finds the flag.
-   - Once found, it will print something like:
-     ```
-     Flag found: AbC123
-     ```
-
----
-
-### **Expected Results**
-The program will eventually find the correct flag after testing combinations, as long as the conditions are valid.
-
----
-
-Let me know if you need help compiling or modifying the program! 😊
